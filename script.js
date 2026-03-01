@@ -41,3 +41,14 @@ window.onclick = function (event) {
         modal.style.display = "none";
     }
 }
+
+const projectBoxes = document.querySelectorAll('.project-box');
+
+projectBoxes.forEach(box => {
+    box.addEventListener('click', () => {
+        if (window.innerWidth <= 768) {
+            const layer = box.querySelector('.project-layer');
+            layer.style.transform = layer.style.transform === 'translateY(0%)' ? 'translateY(100%)' : 'translateY(0%)';
+        }
+    });
+});
