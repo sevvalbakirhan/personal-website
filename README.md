@@ -7,3 +7,5 @@ Bu repository, benim kişisel portfolio web sitemi içerir.
 - HTML5
 - CSS3
 - JavaScript
+
+🌐 [Siteyi Görüntüle](https://sevvalbakirhan.vercel.app/)
